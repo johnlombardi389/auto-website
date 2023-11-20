@@ -17,7 +17,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4 relative">
+    <nav className="bg-gray-800 p-4 fixed w-full z-10">
       <div className="container mx-auto flex items-center justify-between">
         {/* Branding/Logo (Left Section) */}
         <div className="flex items-center">
