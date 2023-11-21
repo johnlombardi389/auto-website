@@ -3,7 +3,7 @@ import introImg from "../assets/introImg.jpg";
 
 const Intro = () => {
   return (
-    <section className="flex items-center justify-center p-4">
+    <section id="intro" className="flex items-center justify-center p-4">
       {/* Left side with image */}
       <div className="w-1/2">
         <img src={introImg} alt="Introduction" className="w-full h-auto" />

@@ -1,6 +1,9 @@
 const Services = () => {
   return (
-    <section className="bg-gray-100 border-t border-gray-200 border-b p-8 text-center">
+    <section
+      id="services"
+      className="bg-gray-100 border-t border-gray-200 border-b p-12 text-center"
+    >
       <h3 className="text-2xl font-bold mb-4">What services do we provide?</h3>
       <p className="text-gray-700 mb-8">Explore our range of services below.</p>
 

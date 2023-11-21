@@ -5,7 +5,7 @@ import horizontal2 from "../assets/horizontal2.jpg";
 
 const Images = () => {
   return (
-    <section className="sm:px-32 md:px-64 lg:px-64 py-4">
+    <section id="images" className="sm:px-32 md:px-64 lg:px-64 py-12">
       <h3 className="text-2xl font-bold mb-4">Images Section</h3>
 
       <div className="flex flex-col md:flex-row">

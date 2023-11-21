@@ -1,5 +1,8 @@
 import { useState } from "react";
+// Icons
 import { TfiMenu, TfiClose } from "react-icons/tfi";
+// Scroll
+import { Link } from "react-scroll";
 
 const Nav = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
@@ -17,11 +20,11 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4 fixed w-full z-10">
+    <nav className="bg-gray-800 p-2 fixed w-full z-10">
       <div className="container mx-auto flex items-center justify-between">
         {/* Branding/Logo (Left Section) */}
         <div className="flex items-center">
-          <a href="/" className="text-white text-lg font-bold">
+          <a href="#intro" className="text-white text-lg font-bold">
             AutoRepair
           </a>
         </div>
@@ -30,15 +33,24 @@ const Nav = () => {
         <div className="flex items-center relative">
           {/* Navigation Links (Visible on Medium and Larger Screens) */}
           <div className={`hidden md:flex space-x-4`}>
-            <a href="/" className="text-white">
+            {/* <a href="#intro" className="text-white">
               Home
-            </a>
-            <a href="/about" className="text-white">
+            </a> */}
+            <Link to="intro" smooth={true} duration={500}>
+              Home
+            </Link>
+            {/* <a href="#images" className="text-white">
               About
-            </a>
-            <a href="/services" className="text-white">
+            </a> */}
+            <Link to="images" smooth={true} duration={500}>
+              About
+            </Link>
+            {/* <a href="#services" className="text-white">
               Services
-            </a>
+            </a> */}
+            <Link to="services" smooth={true} duration={500}>
+              Services
+            </Link>
           </div>
 
           {/* Hamburger Menu for Small Screens */}
