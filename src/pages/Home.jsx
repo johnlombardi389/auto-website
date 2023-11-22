@@ -5,6 +5,7 @@ import Images from "../components/Images";
 import FAQ from "../components/FAQ";
 import Reviews from "../components/Reviews";
 import Contact from "../components/Contact";
+import About from "../components/About";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Reviews />
       <FAQ />
       <Contact />
+      <About />
     </main>
   );
 };
