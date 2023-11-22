@@ -24,7 +24,7 @@ const Nav = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Branding/Logo (Left Section) */}
         <div className="flex items-center">
-          <a href="#intro" className="text-white text-lg font-bold">
+          <a href="/" className="text-white text-lg font-bold">
             AutoRepair
           </a>
         </div>
@@ -36,19 +36,34 @@ const Nav = () => {
             {/* <a href="#intro" className="text-white">
               Home
             </a> */}
-            <Link to="intro" smooth={true} duration={500}>
+            <Link
+              to="intro"
+              smooth={true}
+              duration={500}
+              className="text-white"
+            >
               Home
             </Link>
             {/* <a href="#images" className="text-white">
               About
             </a> */}
-            <Link to="images" smooth={true} duration={500}>
+            <Link
+              to="images"
+              smooth={true}
+              duration={500}
+              className="text-white"
+            >
               About
             </Link>
             {/* <a href="#services" className="text-white">
               Services
             </a> */}
-            <Link to="services" smooth={true} duration={500}>
+            <Link
+              to="services"
+              smooth={true}
+              duration={500}
+              className="text-white"
+            >
               Services
             </Link>
           </div>

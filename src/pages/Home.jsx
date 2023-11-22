@@ -4,6 +4,7 @@ import Services from "../components/Services";
 import Images from "../components/Images";
 import FAQ from "../components/FAQ";
 import Reviews from "../components/Reviews";
+import Contact from "../components/Contact";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Images />
       <Reviews />
       <FAQ />
+      <Contact />
     </main>
   );
 };
