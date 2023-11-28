@@ -3,60 +3,40 @@ import {
   FaInstagram,
   FaLinkedin,
   FaPhoneAlt,
+  FaTwitter,
 } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-4 mt-auto">
-      <div className="container mx-auto text-center">
-        {/* Top Section: Phone Number and Social Media Links */}
-        <div className="flex flex-col md:flex-row justify-between items-center mb-4">
-          {/* Phone Number */}
-          <div className="mb-2 md:mb-0">
-            <FaPhoneAlt className="inline-block mr-2" />
-            <span>Call us: +1234567890</span>
-          </div>
+    <footer className="bg-gray-800 text-white py-4 mt-auto text-center">
+      {/* Phone Number */}
+      <div className="mb-4">
+        <FaPhoneAlt className="inline-block mr-2" />
+        <span>Call us: 123-456-7890</span>
+      </div>
 
-          {/* Social Media Links */}
-          <div className="flex space-x-4">
-            <a href="#" className="text-white">
-              <FaFacebook />
-            </a>
-            <a href="#" className="text-white">
-              <FaInstagram />
-            </a>
-            <a href="#" className="text-white">
-              <FaLinkedin />
-            </a>
-            <a href="#" className="text-white">
-              <FaTwitter />
-            </a>
-          </div>
-        </div>
+      {/* Social Media Links */}
+      <div className="flex justify-center mb-8 space-x-4">
+        <a href="#" className="text-white">
+          <FaFacebook size={25} />
+        </a>
+        <a href="#" className="text-white">
+          <FaInstagram size={25} />
+        </a>
+        <a href="#" className="text-white">
+          <FaLinkedin size={25} />
+        </a>
+        <a href="#" className="text-white">
+          <FaTwitter size={25} />
+        </a>
+      </div>
 
-        {/* Bottom Section: Logo and Additional Links */}
-        <div className="flex flex-col md:flex-row justify-between">
-          {/* Logo Section */}
-          <div className="mb-4 md:mb-0">
-            {/* Replace 'YourLogo' with your actual logo component or image */}
-            <img src="your-logo.png" alt="Company Logo" className="w-12 h-12" />
-          </div>
-
-          {/* Additional Links */}
-          <div className="flex space-x-4">
-            <a href="#" className="text-white">
-              Home
-            </a>
-            <a href="#" className="text-white">
-              About
-            </a>
-            <a href="#" className="text-white">
-              Services
-            </a>
-            {/* Add more links as needed */}
-          </div>
-        </div>
+      {/* Company Address and Working Hours */}
+      <div>
+        <p className="mb-2">20 W 34th St., New York, NY 10001</p>
+        {/* <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+        <p>Saturday: 9:00 AM - 4:00 PM</p>
+        <p>Sunday: Closed</p> */}
       </div>
     </footer>
   );

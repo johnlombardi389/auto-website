@@ -3,7 +3,7 @@ import reviewImg from "../assets/reviewImg.jpg";
 
 const Reviews = () => {
   return (
-    <section id="reviews" className="relative h-96 mb-0 overflow-hidden">
+    <section id="reviews" className="relative h-96 mb-4 overflow-hidden">
       {/* Overlay Box */}
       <div className="absolute inset-0 flex items-center justify-start p-12">
         {/* Quote Box */}
