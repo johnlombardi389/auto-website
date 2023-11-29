@@ -9,13 +9,15 @@ const Reviews = () => {
         {/* Quote Box */}
         <div className="bg-gray-800 bg-opacity-75 p-4 rounded-l-md w-1/3">
           {/* Customer Quote */}
-          <blockquote className="text-sm font-italic text-left text-white">
+          <blockquote className="text-sm font-italic text-left text-white font-roboto">
             "Excellent service! The team here is knowledgeable, and they always
             go above and beyond for their customers."
           </blockquote>
 
           {/* Customer Name */}
-          <p className="text-sm mt-2 font-bold text-white">- Jane Doe</p>
+          <p className="text-sm mt-2 font-bold text-white font-montserrat">
+            - Jane Doe
+          </p>
         </div>
       </div>
 

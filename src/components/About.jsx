@@ -3,15 +3,17 @@ const About = () => {
     <section id="about" className="py-12">
       <div className="container mx-auto">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-4">Our History</h1>
-          <p>
+          <h1 className="text-3xl font-bold mb-4 font-montserrat">
+            Our History
+          </h1>
+          <p className="font-roboto">
             Empire Auto Repair was founded in 1995 by John Smith, a passionate
             car enthusiast with a vision to provide top-notch auto repair
             services. Starting as a small garage in the heart of New York City,
             Empire Auto Repair quickly gained a reputation for excellence and
             customer satisfaction.
           </p>
-          <p>
+          <p className="font-roboto">
             Over the years, the business expanded its operations, incorporating
             the latest technologies and skilled technicians to meet the
             ever-growing demands of the automotive industry. Today, Empire Auto
@@ -22,16 +24,16 @@ const About = () => {
 
         {/* Company Overview */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-4">
+          <h1 className="text-3xl font-bold mb-4 font-montserrat">
             Overview of Empire Auto Repair
           </h1>
-          <p>
+          <p className="font-roboto">
             Empire Auto Repair is a leading auto service provider committed to
             delivering exceptional repair and maintenance services. With a
             state-of-the-art facility and a team of highly skilled technicians,
             we cater to a wide range of automotive needs.
           </p>
-          <p>
+          <p className="font-roboto">
             Our customer-centric approach, transparent communication, and
             commitment to quality have set us apart in the competitive
             automotive repair industry. Whether it's routine maintenance,
@@ -42,8 +44,10 @@ const About = () => {
 
         {/* Mission Statement */}
         <div>
-          <h1 className="text-3xl font-bold mb-4">Our Mission Statement</h1>
-          <p>
+          <h1 className="text-3xl font-bold mb-4 font-montserrat">
+            Our Mission Statement
+          </h1>
+          <p className="font-roboto">
             At Empire Auto Repair, our mission is to provide reliable,
             high-quality automotive services that prioritize safety, efficiency,
             and customer satisfaction. We aim to build lasting relationships

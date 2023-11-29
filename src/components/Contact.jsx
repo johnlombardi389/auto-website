@@ -43,10 +43,12 @@ const Contact = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Form on the left */}
         <div className="md:w-1/2 mb-8 md:mb-0 md:pr-4" id="contact-form">
-          <h1 className="text-3xl font-bold mb-8">Contact Us</h1>
+          <h1 className="text-3xl font-bold mb-8 font-montserrat">
+            Contact Us
+          </h1>
           <form onSubmit={handleSubmit}>
             {/* Form fields here */}
-            <label htmlFor="name" className="block mb-2">
+            <label htmlFor="name" className="block mb-2 font-roboto">
               Name:
               <input
                 type="text"
@@ -54,12 +56,12 @@ const Contact = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleInputChange}
-                className="border p-2 w-full"
+                className="border p-2 w-full font-roboto"
                 required
               />
             </label>
 
-            <label htmlFor="email" className="block mb-2">
+            <label htmlFor="email" className="block mb-2 font-roboto">
               Email:
               <input
                 type="email"
@@ -67,12 +69,12 @@ const Contact = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleInputChange}
-                className="border p-2 w-full"
+                className="border p-2 w-full font-roboto"
                 required
               />
             </label>
 
-            <label htmlFor="message" className="block mb-2">
+            <label htmlFor="message" className="block mb-2 font-roboto">
               Message:
               <textarea
                 id="message"
@@ -80,7 +82,7 @@ const Contact = () => {
                 rows="4"
                 value={formData.message}
                 onChange={handleInputChange}
-                className="border p-2 w-full"
+                className="border p-2 w-full font-roboto"
                 required
               ></textarea>
             </label>
@@ -88,12 +90,12 @@ const Contact = () => {
             <div className="flex mb-4 items-center">
               <button
                 type="submit"
-                className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
+                className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 font-montserrat font-bold"
               >
                 Send Message
               </button>
               {isMessageSent ? (
-                <p className="text-green-500 ml-4">
+                <p className="text-green-500 ml-4 font-roboto">
                   Message sent successfully!
                 </p>
               ) : null}
@@ -102,11 +104,13 @@ const Contact = () => {
 
           {/* Company Hours */}
           <div className="mt-8">
-            <h2 className="text-xl font-bold mb-2">Company Hours</h2>
+            <h2 className="text-xl font-bold mb-2 font-montserrat">
+              Company Hours
+            </h2>
             {/* Company hours here */}
-            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-            <p>Saturday: 9:00 AM - 4:00 PM</p>
-            <p>Sunday: Closed</p>
+            <p className="font-roboto">Monday - Friday: 8:00 AM - 6:00 PM</p>
+            <p className="font-roboto">Saturday: 9:00 AM - 4:00 PM</p>
+            <p className="font-roboto">Sunday: Closed</p>
           </div>
         </div>
 

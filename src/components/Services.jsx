@@ -37,10 +37,12 @@ const Services = () => {
       id="services"
       className="bg-gray-100 border-t border-gray-200 border-b p-12 text-center"
     >
-      <h3 className="text-2xl font-bold mb-4 text-gray-800">
+      <h3 className="text-2xl font-bold mb-4 text-gray-800 font-montserrat">
         What services do we provide?
       </h3>
-      <p className="text-gray-600 mb-8">Explore our range of services below.</p>
+      <p className="text-gray-600 mb-8 font-roboto">
+        Explore our range of services below.
+      </p>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
         {servicesData.map((service, index) => (
@@ -48,10 +50,10 @@ const Services = () => {
             key={index}
             className="bg-white p-4 text-center border border-gray-300"
           >
-            <h4 className="text-sm md:text-lg lg:text-xl font-bold mb-4 text-gray-800">
+            <h4 className="text-sm md:text-lg lg:text-xl font-bold mb-4 text-gray-800 font-montserrat">
               {service.title}
             </h4>
-            <p className="text-xs md:text-sm lg:text-base text-gray-700">
+            <p className="text-xs md:text-sm lg:text-base text-gray-700 font-roboto">
               {service.description}
             </p>
           </div>

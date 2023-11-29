@@ -37,7 +37,9 @@ const FAQ = () => {
 
   return (
     <section id="faq" className="container mx-auto py-8">
-      <h1 className="text-3xl font-bold mb-8">Frequently Asked Questions</h1>
+      <h1 className="text-3xl font-bold mb-8 font-montserrat">
+        Frequently Asked Questions
+      </h1>
       <div className="space-y-4">
         {faqData.map((faq, index) => (
           <div key={index} className="border-b border-gray-300">
@@ -45,12 +47,14 @@ const FAQ = () => {
               className="flex items-center justify-between w-full py-4 focus:outline-none"
               onClick={() => toggleAnswer(index)}
             >
-              <span className="text-lg font-semibold">{faq.question}</span>
+              <span className="text-lg font-semibold font-montserrat">
+                {faq.question}
+              </span>
               <span>{activeIndex === index ? "▲" : "▼"}</span>
             </button>
             {activeIndex === index && (
               <div className="py-4">
-                <p>{faq.answer}</p>
+                <p className="font-roboto">{faq.answer}</p>
               </div>
             )}
           </div>

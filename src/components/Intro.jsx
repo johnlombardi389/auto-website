@@ -15,11 +15,11 @@ const Intro = () => {
       {/* Right side with text */}
       <div className="w-full md:w-1/2 px-8">
         <div className="text-center">
-          <h1 className="text-lg md:text-3lg lg:text-xl font-bold mb-4">
+          <h1 className="text-lg md:text-3lg lg:text-xl font-bold mb-4 font-montserrat">
             Revitalize Your Ride with Empire Auto Repair – Where Excellence
             Drives Every Service!
           </h1>
-          <p className="text-sm md:text-base lg:text-lg pb-4">
+          <p className="text-sm md:text-base lg:text-lg pb-4 font-robot">
             Our team of skilled technicians is committed to delivering top-notch
             automotive solutions, from routine maintenance to complex repairs.
             With cutting-edge diagnostics and a passion for precision, we ensure

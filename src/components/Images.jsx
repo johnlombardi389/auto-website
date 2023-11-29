@@ -6,7 +6,9 @@ import horizontal2 from "../assets/horizontal2.jpg";
 const Images = () => {
   return (
     <section id="images" className="sm:px-32 md:px-64 lg:px-64 py-12 mb-4">
-      <h3 className="text-2xl font-bold mb-4">Images Section</h3>
+      <h3 className="text-2xl font-bold mb-4 text-center font-montserrat">
+        Passion for Precision
+      </h3>
 
       <div className="flex flex-col md:flex-row">
         {/* Vertical Image on the Left */}
