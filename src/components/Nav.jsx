@@ -24,7 +24,7 @@ const Nav = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Branding/Logo (Left Section) */}
         <div className="flex items-center">
-          <a href="/" className="text-white text-lg font-bold">
+          <a href="/" className="text-white text-lg font-bold font-righteous">
             EmpireAuto
           </a>
         </div>

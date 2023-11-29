@@ -12,7 +12,7 @@ const Footer = () => {
       {/* Phone Number */}
       <div className="mb-4">
         <FaPhoneAlt size={25} className="inline-block mr-2" />
-        <span className="text-lg font-bold font-montserrat">
+        <span className="text-xl font-bold font-montserrat">
           Call us: 123-456-7890
         </span>
       </div>
@@ -35,6 +35,9 @@ const Footer = () => {
 
       {/* Company Address and Working Hours */}
       <div>
+        <p className="text-white text-lg font-bold font-righteous">
+          EmpireAuto
+        </p>
         <p className="mb-2 font-roboto">20 W 34th St., New York, NY 10001</p>
       </div>
     </footer>
