@@ -40,7 +40,7 @@ const Nav = () => {
               to="intro"
               smooth={true}
               duration={500}
-              className="text-white font-roboto"
+              className="text-white font-roboto hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-md cursor-pointer"
             >
               Home
             </Link>
@@ -51,7 +51,7 @@ const Nav = () => {
               to="images"
               smooth={true}
               duration={500}
-              className="text-white font-roboto"
+              className="text-white font-roboto hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-md cursor-pointer"
             >
               About
             </Link>
@@ -62,7 +62,7 @@ const Nav = () => {
               to="services"
               smooth={true}
               duration={500}
-              className="text-white font-roboto"
+              className="text-white font-roboto hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-md cursor-pointer"
             >
               Services
             </Link>
@@ -71,7 +71,7 @@ const Nav = () => {
               to="contact"
               smooth={true}
               duration={500}
-              className="text-white font-roboto"
+              className="text-white font-roboto hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-md cursor-pointer"
             >
               Contact
             </Link>
@@ -92,14 +92,17 @@ const Nav = () => {
             className="md:hidden absolute top-full right-[-17px] left-auto w-48 max-w-md bg-blue mt-2 py-2 text-right"
             style={dropdownStyle}
           >
-            <a href="/" className="block text-white px-4 py-2 font-roboto">
+            <a
+              href="/"
+              className="block text-white px-4 py-2 font-roboto hover:bg-white hover:bg-opacity-10"
+            >
               Home
             </a>
             <Link
               to="about"
               smooth={true}
               duration={500}
-              className="block text-white px-4 py-2 font-roboto cursor-pointer"
+              className="block text-white px-4 py-2 font-roboto cursor-pointer hover:bg-white hover:bg-opacity-10"
             >
               About
             </Link>
@@ -107,7 +110,7 @@ const Nav = () => {
               to="services"
               smooth={true}
               duration={500}
-              className="block text-white px-4 py-2 font-roboto cursor-pointer"
+              className="block text-white px-4 py-2 font-roboto cursor-pointer hover:bg-white hover:bg-opacity-10"
             >
               Services
             </Link>
@@ -115,7 +118,7 @@ const Nav = () => {
               to="contact"
               smooth={true}
               duration={500}
-              className="block text-white px-4 py-2 font-roboto cursor-pointer"
+              className="block text-white px-4 py-2 font-roboto cursor-pointer hover:bg-white hover:bg-opacity-10"
             >
               Contact
             </Link>
