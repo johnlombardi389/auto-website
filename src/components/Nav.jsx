@@ -20,12 +20,12 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-2 fixed w-full z-10">
+    <nav className="bg-blue p-2 fixed w-full z-10">
       <div className="container mx-auto flex items-center justify-between">
         {/* Branding/Logo (Left Section) */}
         <div className="flex items-center">
           <a href="/" className="text-white text-lg font-bold">
-            AutoRepair
+            EmpireAuto
           </a>
         </div>
 
@@ -40,7 +40,7 @@ const Nav = () => {
               to="intro"
               smooth={true}
               duration={500}
-              className="text-white"
+              className="text-white font-roboto"
             >
               Home
             </Link>
@@ -51,7 +51,7 @@ const Nav = () => {
               to="images"
               smooth={true}
               duration={500}
-              className="text-white"
+              className="text-white font-roboto"
             >
               About
             </Link>
@@ -62,9 +62,18 @@ const Nav = () => {
               to="services"
               smooth={true}
               duration={500}
-              className="text-white"
+              className="text-white font-roboto"
             >
               Services
+            </Link>
+
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="text-white font-roboto"
+            >
+              Contact
             </Link>
           </div>
 
@@ -80,18 +89,36 @@ const Nav = () => {
 
           {/* Mobile Navigation Links (Dropdown on Small Screens) */}
           <div
-            className="md:hidden absolute top-full right-[-17px] left-auto w-48 max-w-md bg-gray-800 mt-2 py-2 text-right"
+            className="md:hidden absolute top-full right-[-17px] left-auto w-48 max-w-md bg-blue mt-2 py-2 text-right"
             style={dropdownStyle}
           >
-            <a href="/" className="block text-white px-4 py-2">
+            <a href="/" className="block text-white px-4 py-2 font-roboto">
               Home
             </a>
-            <a href="/about" className="block text-white px-4 py-2">
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              className="block text-white px-4 py-2 font-roboto cursor-pointer"
+            >
               About
-            </a>
-            <a href="/services" className="block text-white px-4 py-2">
+            </Link>
+            <Link
+              to="services"
+              smooth={true}
+              duration={500}
+              className="block text-white px-4 py-2 font-roboto cursor-pointer"
+            >
               Services
-            </a>
+            </Link>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="block text-white px-4 py-2 font-roboto cursor-pointer"
+            >
+              Contact
+            </Link>
           </div>
         </div>
       </div>

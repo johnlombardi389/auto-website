@@ -7,6 +7,10 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
+      backgroundColor: {
+        blue: "#003366",
+        silver: "#CCCCCC",
+      },
     },
   },
   plugins: [],

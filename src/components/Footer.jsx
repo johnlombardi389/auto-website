@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-4 mt-auto text-center">
+    <footer className="bg-blue text-white py-4 mt-auto text-center">
       {/* Phone Number */}
       <div className="mb-4">
         <FaPhoneAlt size={25} className="inline-block mr-2" />
@@ -19,16 +19,16 @@ const Footer = () => {
 
       {/* Social Media Links */}
       <div className="flex justify-center mb-8 space-x-4">
-        <a href="#" className="text-white">
+        <a href="#" className="text-white hover:text-gray-300">
           <FaFacebook size={20} />
         </a>
-        <a href="#" className="text-white">
+        <a href="#" className="text-white hover:text-gray-300">
           <FaInstagram size={20} />
         </a>
-        <a href="#" className="text-white">
+        <a href="#" className="text-white hover:text-gray-300">
           <FaLinkedin size={20} />
         </a>
-        <a href="#" className="text-white">
+        <a href="#" className="text-white hover:text-gray-300">
           <FaTwitter size={20} />
         </a>
       </div>

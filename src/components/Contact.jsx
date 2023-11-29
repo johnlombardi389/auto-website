@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-12">
+    <section id="contact" className="py-12">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Form on the left */}
         <div className="md:w-1/2 mb-8 md:mb-0 md:pr-4" id="contact-form">
