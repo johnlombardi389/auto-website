@@ -6,8 +6,8 @@ const About = () => {
           <h1 className="text-3xl font-bold mb-4 font-montserrat">
             Our History
           </h1>
-          <p className="font-roboto">
-            Empire Auto Repair was founded in 1995 by John Smith, a passionate
+          <p className="font-roboto pb-2">
+            Empire Auto Repair was founded in 1981 by Jenny Smith, a passionate
             car enthusiast with a vision to provide top-notch auto repair
             services. Starting as a small garage in the heart of New York City,
             Empire Auto Repair quickly gained a reputation for excellence and
@@ -27,7 +27,7 @@ const About = () => {
           <h1 className="text-3xl font-bold mb-4 font-montserrat">
             Overview of Empire Auto Repair
           </h1>
-          <p className="font-roboto">
+          <p className="font-roboto pb-2">
             Empire Auto Repair is a leading auto service provider committed to
             delivering exceptional repair and maintenance services. With a
             state-of-the-art facility and a team of highly skilled technicians,
