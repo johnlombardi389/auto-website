@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="bg-blue text-white py-4 mt-auto text-center">
       {/* Phone Number */}
-      <div className="mb-4">
+      <div className="mb-4 flex justify-center items-center">
         <FaPhoneAlt size={25} className="inline-block mr-2" />
         <span className="text-xl font-bold font-montserrat">
           Call us: 222-867-5309
