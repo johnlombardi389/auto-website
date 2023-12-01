@@ -26,7 +26,7 @@ const Nav = () => {
         <div className="flex items-center">
           <a
             href="/auto-website"
-            className="text-white text-lg font-bold font-righteous"
+            className="text-yellow text-lg font-bold font-righteous"
           >
             EmpireAuto
           </a>
