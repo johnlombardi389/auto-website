@@ -87,10 +87,10 @@ const Contact = () => {
               ></textarea>
             </label>
 
-            <div className="flex mb-4 items-center">
+            <div className="mb-4 items-center">
               <button
                 type="submit"
-                className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 font-montserrat font-bold"
+                className="bg-blue hover:bg-silver text-white px-4 py-2 rounded font-montserrat font-bold"
               >
                 Send Message
               </button>
