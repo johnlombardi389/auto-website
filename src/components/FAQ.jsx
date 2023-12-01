@@ -23,9 +23,8 @@ const FAQ = () => {
         "The duration of a repair can vary depending on the type of service. We'll provide you with an estimated timeframe when you bring in your vehicle.",
     },
     {
-      question: "Can I schedule an appointment online?",
-      answer:
-        "Yes, you can easily schedule an appointment online through our website. Visit the appointment page to get started.",
+      question: "What is your contact number?",
+      answer: "222-867-5309 or send us a message right here on our website.",
     },
   ];
 
