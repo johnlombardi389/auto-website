@@ -95,12 +95,14 @@ const Nav = () => {
             className="md:hidden absolute top-full right-[-17px] left-auto w-48 max-w-md bg-blue mt-2 py-2 text-right"
             style={dropdownStyle}
           >
-            <a
-              href="/auto-website"
-              className="block text-white px-4 py-2 font-roboto hover:bg-white hover:bg-opacity-10"
+            <Link
+              to="intro"
+              smooth={true}
+              duration={500}
+              className="block text-white px-4 py-2 font-roboto cursor-pointer hover:bg-white hover:bg-opacity-10"
             >
               Home
-            </a>
+            </Link>
             <Link
               to="about"
               smooth={true}
