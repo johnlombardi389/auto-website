@@ -111,6 +111,7 @@ const Contact = () => {
             <p className="font-roboto">Monday - Friday: 8:00 AM - 6:00 PM</p>
             <p className="font-roboto">Saturday: 9:00 AM - 4:00 PM</p>
             <p className="font-roboto">Sunday: Closed</p>
+            <p className="font-roboto">Call: 222-867-5309</p>
           </div>
         </div>
 
