@@ -19,7 +19,7 @@ Welcome to the Empire Auto Repair website – a modern, responsive, and user-fri
 
 ### Visit Website
 
-[Link to Recipe Ready](https://johnlombardi389.github.io/recipe-ready)
+[Link to Auto Repair Website](https://johnlombardi389.github.io/auto-website/)
 
 ## Details
 
