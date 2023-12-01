@@ -24,7 +24,10 @@ const Nav = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Branding/Logo (Left Section) */}
         <div className="flex items-center">
-          <a href="/" className="text-white text-lg font-bold font-righteous">
+          <a
+            href="/auto-website"
+            className="text-white text-lg font-bold font-righteous"
+          >
             EmpireAuto
           </a>
         </div>
@@ -93,7 +96,7 @@ const Nav = () => {
             style={dropdownStyle}
           >
             <a
-              href="/"
+              href="/auto-website"
               className="block text-white px-4 py-2 font-roboto hover:bg-white hover:bg-opacity-10"
             >
               Home
