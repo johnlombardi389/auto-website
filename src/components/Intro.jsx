@@ -32,5 +32,3 @@ const Intro = () => {
 };
 
 export default Intro;
-
-// image credits Photo by Artem Podrez: https://www.pexels.com/photo/a-man-in-blue-suit-checking-a-car-8986148/

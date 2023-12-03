@@ -39,7 +39,3 @@ const Images = () => {
 };
 
 export default Images;
-
-// image 1 Photo by Artem Podrez: https://www.pexels.com/photo/a-person-holding-a-tire-8986177/
-// image 2 Photo by Anna Shvets: https://www.pexels.com/photo/an-auto-mechanic-checking-the-engine-of-a-car-4315570/
-// image tall Photo by Anna Shvets: https://www.pexels.com/photo/an-auto-mechanic-repairing-the-engine-of-a-car-4315573/

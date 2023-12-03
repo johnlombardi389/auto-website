@@ -31,5 +31,3 @@ const Reviews = () => {
 };
 
 export default Reviews;
-
-// image Photo by Antoni Shkraba: https://www.pexels.com/photo/smiling-woman-sitting-inside-the-car-7144214/
