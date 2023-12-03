@@ -75,21 +75,13 @@ This code leverages Tailwind CSS classes for responsive and clean styling, ensur
 
 ![Services](/src/assets/empireauto2.png)
 
-#### Image Grid
+#### FAQ
 
-![Image Grid](/src/assets/empireauto3.png)
+![FAQ](/src/assets/empireauto4.png)
 
-#### Services
+#### Contact
 
-![Services](/src/assets/empireauto4.png)
-
-#### Services
-
-![Services](/src/assets/empireauto5.png)
-
-#### Services
-
-![Services](/src/assets/empireauto2.png)
+![Contact](/src/assets/empireauto5.png)
 
 ## Author
 
@@ -102,3 +94,13 @@ John Lombardi
 ---
 
 ### Credits
+
+Photo by Artem Podrez: https://www.pexels.com/photo/a-man-in-blue-suit-checking-a-car-8986148/
+
+Photo by Artem Podrez: https://www.pexels.com/photo/a-person-holding-a-tire-8986177/
+
+Photo by Anna Shvets: https://www.pexels.com/photo/an-auto-mechanic-checking-the-engine-of-a-car-4315570/
+
+Photo by Anna Shvets: https://www.pexels.com/photo/an-auto-mechanic-repairing-the-engine-of-a-car-4315573/
+
+Photo by Antoni Shkraba: https://www.pexels.com/photo/smiling-woman-sitting-inside-the-car-7144214/
