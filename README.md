@@ -67,13 +67,29 @@ This code leverages Tailwind CSS classes for responsive and clean styling, ensur
 
 ## Photos
 
-### Log In
+### Intro
 
-![Log In](/src/assets/Project1.png)
+![Intro](/src/assets/empireauto1.png)
 
-#### Register Account
+#### Services
 
-![Register](/src/assets/Project2.png)
+![Services](/src/assets/empireauto2.png)
+
+#### Image Grid
+
+![Image Grid](/src/assets/empireauto3.png)
+
+#### Services
+
+![Services](/src/assets/empireauto4.png)
+
+#### Services
+
+![Services](/src/assets/empireauto5.png)
+
+#### Services
+
+![Services](/src/assets/empireauto2.png)
 
 ## Author
 
