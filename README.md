@@ -1,6 +1,6 @@
 # Auto Repair Website
 
-![Project Preview Image](/src/assets/Project6.png)
+![Project Preview Image](/src/assets/empireauto1.png)
 
 ## Table of Contents
 
